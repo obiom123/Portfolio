@@ -45,6 +45,36 @@ header .header-cases{
   display: none;
 }
 
+@media only screen and (min-width: 1000px){
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+  header nav ul {
+    margin: 0;
+    float: left;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+  
+  }
+  
+  header nav ul li a {
+    font-family: catamaran;
+    font-size: 16px;
+    color: #111;
+    line-height: 60px;
+  }
+}
+
 /* Index */
 
 .index-banner {
@@ -95,9 +125,37 @@ vertical-align: middle;
 .index-links div h3 {
   font-family: catamaran;
   font-size: 28px;
-  font-weight: 900;
-  line-height: 40px;
+  font-weight: 100;
+  line-height: 100px;
   color: #111;
   text-align: center;
   text-shadow: 2px 2px 8px #111;
+}
+
+/* Footer */
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px
+}
+
+footer ul li {
+  display: block;
+  list-style: none
+}
+
+footer ul li a {
+  font-family: catamaran;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
 }
