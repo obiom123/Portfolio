@@ -131,6 +131,10 @@ header .header-cases {
   text-shadow: 2px 2px 8px #111;
 }
 
+.index-links :hover{
+  background-color: aliceblue;
+}
+
 @media only screen and (min-width: 1000px) {
   .wrapper {
     width: 1000px;
@@ -161,7 +165,7 @@ header .header-cases {
     width: calc(50% - 20px) !important;
   }
   .index-links div h3 {
-    line-height: 30px;
+    line-height: 170px;
   }
 }
 
@@ -192,7 +196,12 @@ footer ul li a {
   color: #fff;
   line-height: 30px;
 }
-
+.top-logo-wrapper{
+  max-width: 1px;
+}
+.top-logo{
+  max-width: 1px;
+}
 .logo{
   max-width: 160px;
   float: right;
