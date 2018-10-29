@@ -1,5 +1,6 @@
 * {
   text-decoration: none;
+  /* box-sizing: border-box; */
 }
 
 header {
@@ -210,4 +211,94 @@ footer ul li a {
 }
 @media only screen and (min-width: 1000px) {
   /* .footer */
+}
+
+
+/* Projects */
+.project-container{
+  
+}
+.portfolio-header{
+  font-size: 50px;
+}
+.project-wrapper{
+  display: flex;
+text-align: center;
+justify-content: center;
+flex-direction: column;
+
+
+
+}
+.each-project{
+  display: flex;
+flex-wrap: wrap;
+align-self: center;
+align-content: center;
+margin-left: 25px;
+padding-top: 20px;
+margin-top: 0;
+justify-content: center;
+width: 80vh;
+
+}
+.project-img{
+  height: 35vh;
+  width: 80%;
+border: #000000 solid;
+
+}
+.project-img:hover{
+border: red solid;
+}
+.header-for-projects{
+margin: 0;
+}
+.text-for-projects{
+
+}
+
+@media only screen and (max-width: 550px) {
+  .each-project{
+  width: 50vh;
+  
+  }
+}
+/* About Me */
+.about-container{
+  text-align: center;
+  height: 50vh;
+  width: 80%;
+  margin: 0 auto;
+}
+.about-header{
+  font-size: 50px; 
+}
+.about-text{
+  font-size: 25px;
+}
+@media only screen and (max-width: 650px) {
+  .about-container{
+    height: 80vh;
+  }
+
+}
+/* Contact Me */
+.contact-container{
+  text-align: center;
+  height: 50vh;
+  width: 80%;
+  margin: 0 auto;
+}
+.contact-header{
+  font-size: 50px; 
+}
+.contact-text{
+  font-size: 25px;
+}
+@media only screen and (max-width: 650px) {
+  .contact-container{
+    height: 80vh;
+  }
+
 }
